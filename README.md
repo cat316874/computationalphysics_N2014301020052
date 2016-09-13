@@ -19,7 +19,7 @@ Personal Objective
 ##Homework list
 
 ---
-- [x] [Exercise_01:](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_01)
+- [x] [Exercise_01:]
 - [ ] [Exercise_02:](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_02)
 - [ ] [Exercise_03:](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_03)
 - [ ] [Exercise_04:](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_04)
