@@ -8,13 +8,13 @@ In this program the `print` to print my English name "Robin" by aranging the pos
 
 ---
 ```python
-print ('#######         #                 ')
-print ('#      #        #      #          ')
-print ('#      #        #                 ')
-print ('#######   ####  ####   #   #     #')
-print ('#   #    #    # #   #  #   # #   #')
-print ('#    #   #    # #   #  #   #   # #')
-print ('#      #  ####  ####   #   #     #')
+print ('#######         #               ')
+print ('#      #        #      #        ')
+print ('#      #        #               ')
+print ('#######   ####  ####   #   #####')
+print ('#   #    #    # #   #  #   #   #')
+print ('#    #   #    # #   #  #   #   #')
+print ('#      #  ####  ####   #   #   #')
 ```
 
 
