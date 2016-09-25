@@ -19,19 +19,19 @@ Personal Objective
 ##Homework list
 
 ---
-- [x] Exercise_01:
-- [ ] [Exercise_02:](https://github.com/Rob1nTian/computationalphysics_N2014301020052/tree/master/Excercise_02)
-- [ ] [Exercise_03:](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_03)
-- [ ] [Exercise_04:](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_04)
-- [ ] [Exercise_05:](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_05)
-- [ ] [Exercise_06:](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_06)
-- [ ] [Exercise_07:](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_07)
-- [ ] [Exercise_08:](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_08)
-- [ ] [Exercise_09:](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_09)
-- [ ] [Exercise_10:](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_10)
-- [ ] [Exercise_11:](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_11)
-- [ ] [Exercise_12:](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_12)
-- [ ] [Exercise_13:](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_13)
+- [x] Exercise_01
+- [ ] [Exercise_02](https://github.com/Rob1nTian/computationalphysics_N2014301020052/tree/master/Excercise_02)
+- [ ] [Exercise_03](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_03)
+- [ ] [Exercise_04](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_04)
+- [ ] [Exercise_05](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_05)
+- [ ] [Exercise_06](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_06)
+- [ ] [Exercise_07](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_07)
+- [ ] [Exercise_08](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_08)
+- [ ] [Exercise_09](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_09)
+- [ ] [Exercise_10](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_10)
+- [ ] [Exercise_11](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_11)
+- [ ] [Exercise_12](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_12)
+- [ ] [Exercise_13](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_13)
 
 
 
