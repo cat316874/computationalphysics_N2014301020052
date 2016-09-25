@@ -97,8 +97,8 @@ for j in range(10) :
 
 ---
 #Acknowledgements
-Thanks to the hint from the assignment discription.
-Thanks to my friend Shijie Ni, who help me to use the `time.sleep` to achieve the movement.
+- Thanks to the hint from the assignment discription.
+- Thanks to my friend Shijie Ni, who help me to use the `time.sleep` to achieve the movement.
 
 
 
