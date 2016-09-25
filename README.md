@@ -20,7 +20,7 @@ Personal Objective
 
 ---
 - [x] Exercise_01
-- [x] [Exercise_02:Printing My Name On The Screen](https://github.com/Rob1nTian/computationalphysics_N2014301020052/tree/master/Excercise_02)
+- [x] [Exercise_02: Printing My Name On The Screen](https://github.com/Rob1nTian/computationalphysics_N2014301020052/tree/master/Excercise_02)
 - [ ] [Exercise_03](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_03)
 - [ ] [Exercise_04](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_04)
 - [ ] [Exercise_05](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_05)
