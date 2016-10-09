@@ -186,8 +186,8 @@ def store_results(self):
 ```
 Actually I don't understand the meaning of this part of program.
 
-The Numerical results:![Numerical solution](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/excercise_04_01.jpg)
-(If the picture is broken,please view it in my repository documents @ https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/excercise_04_01.jpg)
+The Numerical results:![Numerical solution]https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_04/excercise_04_01.jpg)
+(If the picture is broken,please view it in my repository documents at https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_04/excercise_04_01.jpg)
 
 ## Part 3 - Comparison to the Analytical Results
 ```python
@@ -212,8 +212,8 @@ class exact_result_check(duel_decay):
 ```
 In this part of program I plot the analytical results and numerical results in one coordinate, and the plot are as followed:
 
-![Comparison](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/excercise_04_02.jpg)
-(If the picture is broken,please view it in my repository documents at https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/excercise_04_02.jpg)
+![Comparison](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_04/excercise_04_02.jpg)
+(If the picture is broken,please view it in my repository documents at https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_04/excercise_04_02.jpg)
 
 Notice that I change the time interval to a greater one in order to make the information of the image more clear.
 
@@ -244,7 +244,8 @@ f.show_results('m')
 ```
 In the part I create a derived class based on the former class to make use of the former methods.In this class I redefine the `show_result()`function in order to compare results of different time interval. We can see from the image that smaller interval leads to more accurate result.
 
-![different intervals](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/excercise_04_03.jpg)
+![different intervals](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_04/excercise_04_03.jpg)
+((If the picture is broken,please view it in my repository documents at https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_04/excercise_04_03.jpg)
 
 ---
 
