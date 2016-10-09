@@ -88,3 +88,7 @@ e.show_results('y')
 f = diff_step_check(time_interval = 0.25)
 f.calculate()
 f.show_results('m')
+
+g = diff_step_check(time_interval = 0.5)
+g.calculate()
+g.show_results('k')
