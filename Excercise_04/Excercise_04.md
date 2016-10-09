@@ -186,8 +186,9 @@ def store_results(self):
 ```
 Actually I don't understand the meaning of this part of program.
 
-The Numerical results:![Numerical solution]https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_04/excercise_04_01.jpg)
-(If the picture is broken,please view it in my repository documents at https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_04/excercise_04_01.jpg)
+The Numerical results:![Numerical solution](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/excercise_04_01.jpg)
+(If the picture is broken,please view it in my repository documents @ https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/excercise_04_01.jpg)
+This picture gives us an intuative impression on how the result should be looked like.
 
 ## Part 3 - Comparison to the Analytical Results
 ```python
@@ -212,10 +213,12 @@ class exact_result_check(duel_decay):
 ```
 In this part of program I plot the analytical results and numerical results in one coordinate, and the plot are as followed:
 
-![Comparison](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_04/excercise_04_02.jpg)
-(If the picture is broken,please view it in my repository documents at https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_04/excercise_04_02.jpg)
+![Comparison](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/excercise_04_02.jpg)
+(If the picture is broken,please view it in my repository documents at https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/excercise_04_02.jpg)
 
 Notice that I change the time interval to a greater one in order to make the information of the image more clear.
+
+It's obvious that the value we got deviate a little from the accurate result, this is the same situation that we met in the class and it shows that the approximation do bring about the deviation.
 
 ```python
 class diff_step_check(duel_decay):
@@ -241,11 +244,16 @@ e.show_results('y')
 f = diff_step_check(time_interval = 0.25)
 f.calculate()
 f.show_results('m')
+
+g = diff_step_check(time_interval = 0.5)
+g.calculate()
+g.show_results('k')
 ```
 In the part I create a derived class based on the former class to make use of the former methods.In this class I redefine the `show_result()`function in order to compare results of different time interval. We can see from the image that smaller interval leads to more accurate result.
 
-![different intervals](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_04/excercise_04_03.jpg)
-((If the picture is broken,please view it in my repository documents at https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_04/excercise_04_03.jpg)
+Pay close attention to the black line with time interval of 0.5s(which is 1/10 of the whole time).It's shape is distorted and is obvious different from other strings. This is because the time interval is so large that even the first step deviate from the accurate result obviously, so the following steps of value go straight to the equilibrium line and stay unchanged.
+
+![different intervals](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/excercise_04_03.jpg)
 
 ---
 
