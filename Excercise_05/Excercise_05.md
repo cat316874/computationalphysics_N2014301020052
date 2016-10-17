@@ -13,6 +13,7 @@ In this program I provide a numerical methods(Euler method) to solve the problem
 ---
 #Background
 When calculating the pojectory of the motion of a cannon shell, we usually only take the gravitation in account.This series of problem add the drag of air term,the adiabatic correction term and a changing g correction step by step to get close to the real projectory of the projectile motion of the cannon shell.
+
 --- 
 #Main Text
 ##2.6
