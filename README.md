@@ -22,9 +22,10 @@ Personal Objective
 - [x] Exercise_01
 - [x] [Exercise_02: Printing My Name On The Screen](https://github.com/Rob1nTian/computationalphysics_N2014301020052/tree/master/Excercise_02)
 - [x] [Exercise_03: Move My Name Pattern On The Screen](https://github.com/Rob1nTian/computationalphysics_N2014301020052/tree/master/Excercise_03)
-- [x] [Exercise_04:Duel Decay(github)](https://github.com/Rob1nTian/computationalphysics_N2014301020052/tree/master/Excercise_04)
+- [x] [Exercise_04:Duel Decay(Github)](https://github.com/Rob1nTian/computationalphysics_N2014301020052/tree/master/Excercise_04)
 - [x] [Exercise_04:Duel Decay(zybuluo)](https://www.zybuluo.com/mdeditor#525783)
 - [x] [Exercise_05(zybuluo)](https://www.zybuluo.com/mdeditor#534224)
+- [x] [Excercise 05(Github)](https://github.com/Rob1nTian/computationalphysics_N2014301020052/tree/master/Excercise_05)
 - [ ] [Exercise_06](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_06)
 - [ ] [Exercise_07](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_07)
 - [ ] [Exercise_08](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_08)
