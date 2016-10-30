@@ -19,7 +19,9 @@ If we combine the drive and dissipation with the gravity component and make no a
 
 ##Euler-Cromer Method
 Iteration expression:
-![e1](http://latex.codecogs.com/gif.latex?%24%24%7B%5Comega%7D_%7Bi&plus;1%7D%3D%7B%5Comega%7D_%7Bi%7D&plus;%5B-%28g/l%29sin%7B%5Ctheta%7D_i-q%7B%5Comega%7D_i&plus;F_D%20sin%28%7B%5COmega%7D_Dt_i%29%5D%5CDelta%20t%24%24)
+![e1](http://latex.codecogs.com/gif.latex?%24%24%7B%5Comega%7D_%7Bi&plus;1%7D%3D%7B%5Comega%7D_%7Bi%7D&plus;%5B-
+%28g/l%29sin%7B%5Ctheta%7D_i-q%7B%5Comega%7D_i&plus;F_D%20sin%28%7B%5COmega%7D_Dt_i%29%5D%5CDelta%20t%24%24)
+
 ![e2](http://latex.codecogs.com/gif.latex?%7B%5Ctheta%7D_%7Bi&plus;1%7D%3D%7B%5Ctheta%7D_i%20&plus;%20%7B%5Comega%7D_%7Bi&plus;1%7D%5CDelta%20t)
 
 The Euler-Cromer method use the approximation that is locally of first order and of order zero globally. So the deviation from the accurate result may increase rapidly as the variable goes larger.
@@ -70,10 +72,15 @@ In my program I provide two version of calculation process,first with resetting 
 The Euler-Cromer method evaluate the next value using the former value, and bring the error of second order. The Runga-Kutta method annihilate this disadvantage through a more symetric way of evaluating the next value by the value of the midpoint.
 
 ![e3](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%5Comega%7D%7Bdt%7D%3Df%28%5Ctheta%2Ct%29)
+
 ![e4](http://latex.codecogs.com/gif.latex?%7B%5Comega%7D_%7Bi&plus;1%7D%3D%7B%5Comega%7D_i&plus;f%28%7B%7B%5Ctheta%7D_i%7D%27%2C%7B%7B%5Comega%7D_i%7D%27%2Ct%27%29)
+
 ![e5](http://latex.codecogs.com/gif.latex?%7B%7B%5Ctheta%7D_i%7D%27%20%3D%20%7B%5Ctheta%7D_i&plus;%5Cfrac%7B1%7D%7B2%7D%7B%5Comega%7D_i%5CDelta%20t)
+
 ![e6](http://latex.codecogs.com/gif.latex?%7Bt_1%7D%27%3Dt_i&plus;%5Cfrac%7B1%7D%7B2%7D%5CDelta%20t)
+
 ![e7](http://latex.codecogs.com/gif.latex?%7B%5Ctheta%7D_%7Bi&plus;1%7D%3D%7B%5Ctheta%7D_i&plus;%7B%7B%5Comega%7D_i%7D%27%5CDelta%20t)
+
 ![e8](http://latex.codecogs.com/gif.latex?%7B%7B%5Comega%7D_i%7D%27%3D%7B%5Comega%7D_i&plus;%5Cfrac%7B1%7D%7B2%7Df%28%7B%5Ctheta%7D_i%2Ct_i%29%5CDelta%20t)
 And here are my code for the calculation:
 ```python
@@ -123,8 +130,11 @@ I also provide two version for the convenience of plotting.
 
 ##Verlet method
 ![e9](http://latex.codecogs.com/gif.latex?%7By%7D_%7Bi&plus;1%7D%3D2y_i-y_%7Bi-1%7D&plus;%5Cfrac%7Bd%5E2y%7D%7B%28dt%29%5E2%7D%28%5CDelta%20t%29%5E2)
+
 ![e10](http://latex.codecogs.com/gif.latex?v%20%5Capprox%20%28y_%7Bi&plus;1%7D-y_%7Bi-1%7D%29/2%5CDelta%20t)
-![e11]({\theta}_{i+2}=2{\theta}_{i+1}-{\theta}_i+f({\theta}_{i+1}.{\omega}_{i+1},t_{i+1})\cdot(\Delta t)^2)
+
+![e11](http://latex.codecogs.com/gif.latex?%7B%5Ctheta%7D_%7Bi&plus;2%7D%3D2%7B%5Ctheta%7D_%7Bi&plus;1%7D-%7B%5Ctheta%7D_i&plus;f%28%7B%5Ctheta%7D_%7Bi&plus;1%7D.%7B%5Comega%7D_%7Bi&plus;1%7D%2Ct_%7Bi&plus;1%7D%29%5Ccdot%28%5CDelta%20t%29%5E2)
+
 ![e12](http://latex.codecogs.com/gif.latex?%7B%5Comega%7D_%7Bi&plus;1%7D%3D%28%7B%5Ctheta%7D_%7Bi&plus;2%7D-%7B%5Ctheta%7D_%7Bi%7D%29/2%5CDelta%20t)
 
 This is the expression of Verlet method, we can solve the last two equations and will get
