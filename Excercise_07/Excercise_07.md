@@ -19,6 +19,7 @@ If we combine the drive and dissipation with the gravity component and make no a
 
 ##Euler-Cromer Method
 Iteration expression:
+![e1](http://latex.codecogs.com/gif.latex?%24%24%7B%5Comega%7D_%7Bi&plus;1%7D%3D%7B%5Comega%7D_%7Bi%7D&plus;%5B-%28g/l%29sin%7B%5Ctheta%7D_i-q%7B%5Comega%7D_i&plus;F_D%20sin%28%7B%5COmega%7D_Dt_i%29%5D%5CDelta%20t%24%24)
 <img src="http://latex.codecogs.com/gif.latex?$${\omega}_{i+1}={\omega}_{i}+[-(g/l)sin{\theta}_i-q{\omega}_i+F_D sin({\Omega}_Dt_i)]\Delta t\\
 {\theta}_{i+1}={\theta}_i + {\omega}_{i+1}\Delta t$$" alt="" title="" />
 
