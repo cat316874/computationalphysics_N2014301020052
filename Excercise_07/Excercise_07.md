@@ -20,8 +20,7 @@ If we combine the drive and dissipation with the gravity component and make no a
 ##Euler-Cromer Method
 Iteration expression:
 ![e1](http://latex.codecogs.com/gif.latex?%24%24%7B%5Comega%7D_%7Bi&plus;1%7D%3D%7B%5Comega%7D_%7Bi%7D&plus;%5B-%28g/l%29sin%7B%5Ctheta%7D_i-q%7B%5Comega%7D_i&plus;F_D%20sin%28%7B%5COmega%7D_Dt_i%29%5D%5CDelta%20t%24%24)
-<img src="http://latex.codecogs.com/gif.latex?$${\omega}_{i+1}={\omega}_{i}+[-(g/l)sin{\theta}_i-q{\omega}_i+F_D sin({\Omega}_Dt_i)]\Delta t\\
-{\theta}_{i+1}={\theta}_i + {\omega}_{i+1}\Delta t$$" alt="" title="" />
+![e2](http://latex.codecogs.com/gif.latex?%7B%5Ctheta%7D_%7Bi&plus;1%7D%3D%7B%5Ctheta%7D_i%20&plus;%20%7B%5Comega%7D_%7Bi&plus;1%7D%5CDelta%20t)
 
 The Euler-Cromer method use the approximation that is locally of first order and of order zero globally. So the deviation from the accurate result may increase rapidly as the variable goes larger.
 
@@ -70,13 +69,12 @@ In my program I provide two version of calculation process,first with resetting 
 ##Runga-Kutta Method
 The Euler-Cromer method evaluate the next value using the former value, and bring the error of second order. The Runga-Kutta method annihilate this disadvantage through a more symetric way of evaluating the next value by the value of the midpoint.
 
-<img src="http://latex.codecogs.com/gif.latex?$$\frac{d\omega}{dt}=f(\theta,t)\\
-{\omega}_{i+1}={\omega}_i+f({{\theta}_i}',{{\omega}_i}',t')\\
-{{\theta}_i}' = {\theta}_i+\frac{1}{2}{\omega}_i\Delta t\\
-{t_1}'=t_i+\frac{1}{2}\Delta t\\
-{\theta}_{i+1}={\theta}_i+{{\omega}_i}'\Delta t\\
-{{\omega}_i}'={\omega}_i+\frac{1}{2}f({\theta}_i,t_i)\Delta t$$" alt="" title="" />
-
+![e3](http://latex.codecogs.com/gif.latex?%5Cfrac%7Bd%5Comega%7D%7Bdt%7D%3Df%28%5Ctheta%2Ct%29)
+![e4](http://latex.codecogs.com/gif.latex?%7B%5Comega%7D_%7Bi&plus;1%7D%3D%7B%5Comega%7D_i&plus;f%28%7B%7B%5Ctheta%7D_i%7D%27%2C%7B%7B%5Comega%7D_i%7D%27%2Ct%27%29)
+![e5](http://latex.codecogs.com/gif.latex?%7B%7B%5Ctheta%7D_i%7D%27%20%3D%20%7B%5Ctheta%7D_i&plus;%5Cfrac%7B1%7D%7B2%7D%7B%5Comega%7D_i%5CDelta%20t)
+![e6](http://latex.codecogs.com/gif.latex?%7Bt_1%7D%27%3Dt_i&plus;%5Cfrac%7B1%7D%7B2%7D%5CDelta%20t)
+![e7](http://latex.codecogs.com/gif.latex?%7B%5Ctheta%7D_%7Bi&plus;1%7D%3D%7B%5Ctheta%7D_i&plus;%7B%7B%5Comega%7D_i%7D%27%5CDelta%20t)
+![e8](http://latex.codecogs.com/gif.latex?%7B%7B%5Comega%7D_i%7D%27%3D%7B%5Comega%7D_i&plus;%5Cfrac%7B1%7D%7B2%7Df%28%7B%5Ctheta%7D_i%2Ct_i%29%5CDelta%20t)
 And here are my code for the calculation:
 ```python
 class physical_pendulum_v2(physical_pendulum_v1):
@@ -124,14 +122,13 @@ class physical_pendulum_v2_point_5(physical_pendulum_v1):
 I also provide two version for the convenience of plotting.
 
 ##Verlet method
-<img src="http://latex.codecogs.com/gif.latex?$${y}_{i+1}=2y_i-y_{i-1}+\frac{d^2y}{(dt)^2}(\Delta t)^2\\
- v \approx (y_{i+1}-y_{i-1})/2\Delta t\\
- {\theta}_{i+2}=2{\theta}_{i+1}-{\theta}_i+f({\theta}_{i+1}.{\omega}_{i+1},t_{i+1})\cdot(\Delta t)^2\\
- {\omega}_{i+1}=({\theta}_{i+2}-{\theta}_{i})/2\Delta t\\
-$$" alt="" title="" />
+![e9](http://latex.codecogs.com/gif.latex?%7By%7D_%7Bi&plus;1%7D%3D2y_i-y_%7Bi-1%7D&plus;%5Cfrac%7Bd%5E2y%7D%7B%28dt%29%5E2%7D%28%5CDelta%20t%29%5E2)
+![e10](http://latex.codecogs.com/gif.latex?v%20%5Capprox%20%28y_%7Bi&plus;1%7D-y_%7Bi-1%7D%29/2%5CDelta%20t)
+![e11]({\theta}_{i+2}=2{\theta}_{i+1}-{\theta}_i+f({\theta}_{i+1}.{\omega}_{i+1},t_{i+1})\cdot(\Delta t)^2)
+![e12](http://latex.codecogs.com/gif.latex?%7B%5Comega%7D_%7Bi&plus;1%7D%3D%28%7B%5Ctheta%7D_%7Bi&plus;2%7D-%7B%5Ctheta%7D_%7Bi%7D%29/2%5CDelta%20t)
 
 This is the expression of Verlet method, we can solve the last two equations and will get
-<img src="http://latex.codecogs.com/gif.latex?$${\theta}_{i+2}=\{2{\theta}_{i+1}-{\theta}_i+[-(g/l)sin{\theta}_{i+1}+(q/2\Delta t){\theta}_i+F_Dsin({\Omega}_D t_{i+1})](\Delta t)^2\}/(1+q\Delta t/2)$$" alt="" title="" />
+![e13](http://latex.codecogs.com/gif.latex?%7B%5Ctheta%7D_%7Bi&plus;2%7D%3D%5C%7B2%7B%5Ctheta%7D_%7Bi&plus;1%7D-%7B%5Ctheta%7D_i&plus;%5B-%28g/l%29sin%7B%5Ctheta%7D_%7Bi&plus;1%7D&plus;%28q/2%5CDelta%20t%29%7B%5Ctheta%7D_i&plus;F_Dsin%28%7B%5COmega%7D_D%20t_%7Bi&plus;1%7D%29%5D%28%5CDelta%20t%29%5E2%5C%7D/%281&plus;q%5CDelta%20t/2%29)
 
 It seem that Verlet method use an approximation of __fourth order__, however Verlet method alone can not start a calculation iteration, we should use the Euler-Cromer method to get the second value of angle and angular velocity, this action bring the approximation of the seconf order and will spread through the whole calculation process, thus we actually only get an approximation of __second order__.
 
@@ -284,7 +281,7 @@ Phase diagrams of the five situation,using the results of Runga-Kutta method:
 
 ![22](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_07/Poincare_section.png)
 
-+ For every <img src="http://latex.codecogs.com/gif.latex?$2\pi n$" alt="" title="" /> there are two closest value of t, so I construct a condition structure to find the nearest ones and add them to a new list.
++ For every![e14](http://latex.codecogs.com/gif.latex?2%5Cpi%20n)there are two closest value of t, so I construct a condition structure to find the nearest ones and add them to a new list.
 
 ```python
 for i in range(len(Poincare_section.t)):
