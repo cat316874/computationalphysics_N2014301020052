@@ -443,7 +443,7 @@ plt.show()
 ![25](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_07/Lyapunov_low_drive_changed_damping_factor.png)
 ![26](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_07/Lyapunov_high_drive_changed_damping_factor.png)
 
-+ After I changed the damping factor to 0.6, I found that the shape of the curve does no change very much, so the two __Lyapunov exponent are approximately the same__.
++ After I changed the damping factor to 0.501, I found that the shape of the curve in low drive does not change, and the shape of curve in high drive changes but the slope does not change. So the __Lyapunov exponent is -0.25 for the low drive__ and __0.08 for the high drive__.
 
 ---
 
