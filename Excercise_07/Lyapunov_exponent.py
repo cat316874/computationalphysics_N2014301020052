@@ -34,7 +34,7 @@ class physical_pendulum_changing_initial_angle_2(physical_pendulum_changing_init
             midpoint_time = self.t[i] + 0.5 * self.dt
             midpoint_theta = self.theta[i] + 0.5 * self.dt
             temporary_theta = self.theta[i] + midpoint_omega * self.dt
-            temporary_omega = self.omega[i] + (-math.sin(midpoint_theta) - 0.5 * midpoint_omega + self.FD * math.sin(0.66666666667 * midpoint_time)) * self.dt
+            temporary_omega = self.omega[i] + (-math.sin(midpoint_theta) - 0.6 * midpoint_omega + self.FD * math.sin(0.66666666667 * midpoint_time)) * self.dt
             #Be sure not to miss the corresponding parenthesis, this bad syntax will make the whole folloing program return with invalid syntax.
             #Also, this suggest me that when I occurs to invalid syntax but after several check I still don't find any error , I should shift my attention to the upper line to see if I fail to pair parenthesis there!
             #Be familiar with the debugging method of commenting out!(delete the line that return error)
