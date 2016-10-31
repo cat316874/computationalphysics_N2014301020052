@@ -436,9 +436,9 @@ plt.show()
 
 + The initial angle difference is only __0.001 in radians__ .
 
-+ When in low drive situation, the angle difference will decrease __exponentially__ and there are some __repeated structure__ in the plot. The approximate __Lyapunov exponent is 0.25__.
++ When in low drive situation, the angle difference will decrease __exponentially__ and there are some __repeated structure__ in the plot. The approximate __Lyapunov exponent is -0.25__.
 
-+ When in high drive situation, the angle differnce will increase __exponentially__ but in a __irregular__ way. The approximate __Lyapunov exponent is 0.07__.
++ When in high drive situation, the angle differnce will increase __exponentially__ but in a __irregular__ way. The approximate __Lyapunov exponent is 0.15__.
 
 ![25](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_07/Lyapunov_low_drive_changed_damping_factor.png)
 ![26](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_07/Lyapunov_high_drive_changed_damping_factor.png)
