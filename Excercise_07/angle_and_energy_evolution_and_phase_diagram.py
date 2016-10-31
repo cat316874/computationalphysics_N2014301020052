@@ -506,7 +506,7 @@ plt.ylabel(r'$\omega$ (radians/s)')
 plt.xlabel(r"$\theta$ (radian)")
 plt.show()
 
-plt.plot(phase_diagram_5.theta, phase_diagram_5.omega, ':', label = 'Runga-Kutta')
+plt.scatter(phase_diagram_5.theta, phase_diagram_5.omega,alpha = 0.03, linewidth = 0)
 plt.title((r'$\omega$ versus $\theta$ $F_D=1.2$'))
 plt.ylabel(r'$\omega$ (radians/s)')
 plt.xlabel(r"$\theta$ (radian)")
