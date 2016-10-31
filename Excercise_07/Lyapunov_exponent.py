@@ -30,11 +30,11 @@ class physical_pendulum_changing_initial_angle:
 class physical_pendulum_changing_initial_angle_2(physical_pendulum_changing_initial_angle):
     def calculate(self):
         for i in range(self.steps):
-            midpoint_omega = self.omega[i] + 0.5 * (-math.sin(self.theta[i]) - 0.6 * self.omega[i] + self.FD * math.sin(0.66666666667 * self.t[i])) * self.dt
+            midpoint_omega = self.omega[i] + 0.5 * (-math.sin(self.theta[i]) - 0.501 * self.omega[i] + self.FD * math.sin(0.66666666667 * self.t[i])) * self.dt
             midpoint_time = self.t[i] + 0.5 * self.dt
             midpoint_theta = self.theta[i] + 0.5 * self.dt
             temporary_theta = self.theta[i] + midpoint_omega * self.dt
-            temporary_omega = self.omega[i] + (-math.sin(midpoint_theta) - 0.6 * midpoint_omega + self.FD * math.sin(0.66666666667 * midpoint_time)) * self.dt
+            temporary_omega = self.omega[i] + (-math.sin(midpoint_theta) - 0.501 * midpoint_omega + self.FD * math.sin(0.66666666667 * midpoint_time)) * self.dt
             #Be sure not to miss the corresponding parenthesis, this bad syntax will make the whole folloing program return with invalid syntax.
             #Also, this suggest me that when I occurs to invalid syntax but after several check I still don't find any error , I should shift my attention to the upper line to see if I fail to pair parenthesis there!
             #Be familiar with the debugging method of commenting out!(delete the line that return error)
@@ -58,8 +58,8 @@ for i in range(len(p2_low_drive.theta)):
     angle_difference_1.append(math.log(math.fabs(p2_low_drive.theta[i] - p1_low_drive.theta[i])))
 
 plt.plot(p1_low_drive.t, angle_difference_1)
-plt.title((r'$\theta$ versus time $F_D =0.5$ $q=0.5$'))
-plt.ylabel(r'$\Delta \theta$ (radian)')
+plt.title((r'$log(\Delta \theta)$ versus time $F_D =0.5$ $q=0.5$'))
+plt.ylabel(r'$log(\Delta \theta)$ (radian)')
 plt.xlabel("time (s)")
 plt.xlim(0, 50)
 plt.show()
@@ -76,8 +76,8 @@ for i in range(len(p1_high_drive.theta)):
     angle_difference_2.append(math.log(math.fabs(p2_high_drive.theta[i] - p1_high_drive.theta[i])))
 
 plt.plot(p1_high_drive.t, angle_difference_2)
-plt.title((r'$\theta$ versus time $F_D =1.2$ $q=0.5$'))
-plt.ylabel(r'$\Delta \theta$ (radian)')
+plt.title((r'$log(\Delta \theta)$ versus time $F_D =1.2$ $q=0.5$'))
+plt.ylabel(r'$log(\Delta \theta)$ (radian)')
 plt.xlabel("time (s)")
 plt.xlim(0, 150)
 plt.show()
@@ -96,8 +96,8 @@ for i in range(len(p2_low_drive_2.theta)):
     angle_difference_1_2.append(math.log(math.fabs(p2_low_drive_2.theta[i] - p1_low_drive_2.theta[i])))
 
 plt.plot(p1_low_drive_2.t, angle_difference_1_2)
-plt.title((r'$\theta$ versus time $F_D =0.5$ $q=0.6$'))
-plt.ylabel(r'$\Delta \theta$ (radian)')
+plt.title((r'$log(\Delta \theta)$ versus time $F_D =0.5$ $q=0.501$'))
+plt.ylabel(r'$log(\Delta \theta)$ (radian)')
 plt.xlabel("time (s)")
 plt.xlim(0, 50)
 plt.show()
@@ -114,8 +114,8 @@ for i in range(len(p1_high_drive_2.theta)):
     angle_difference_2_2.append(math.log(math.fabs(p2_high_drive_2.theta[i] - p1_high_drive_2.theta[i])))
 
 plt.plot(p1_high_drive_2.t, angle_difference_2_2)
-plt.title((r'$\theta$ versus time $F_D =1.2$ $q=0.6$'))
-plt.ylabel(r'$\Delta \theta$ (radian)')
+plt.title((r'$log(\Delta \theta)$ versus time $F_D =1.2$ $q=0.501$'))
+plt.ylabel(r'$log(\Delta \theta)$ (radian)')
 plt.xlabel("time (s)")
 plt.xlim(0, 150)
 plt.show()
