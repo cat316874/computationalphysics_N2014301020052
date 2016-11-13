@@ -29,7 +29,7 @@ Personal Objective
 - [x] [Exercise_06(zybuluo)](https://www.zybuluo.com/mdeditor#534224)
 - [x] [Exercise_06(Github)](https://github.com/Rob1nTian/computationalphysics_N2014301020052/tree/master/Excercise_06)
 - [x] [Exercise_07](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_07/Excercise_07.md)
-- [ ] [Exercise_08](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_08)
+- [x] [Exercise_08](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_08/Excercise_08.md)
 - [ ] [Exercise_09](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_09)
 - [ ] [Exercise_10](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_10)
 - [ ] [Exercise_11](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_11)
