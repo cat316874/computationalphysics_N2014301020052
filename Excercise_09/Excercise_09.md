@@ -28,6 +28,7 @@ Billiards capture all the complexity of Hamiltonian systems, from integrability 
 ---
 ##Main text
 The trajectories of the billiard are calculated by the formula:
+.
 ![6](http://latex.codecogs.com/gif.latex?v_%7Bi%2C%5Cperp%20%7D%3D%28v_i%20%5Ccdot%20%5Chat%20n%29%5Chat%20n%20%5C%5C%20v_%7Bi%2C%5Cparallel%20%7D%20%3D%20v_i%20-%20v_%7Bi%2C%5Cperp%7D%20%5C%5C%20v_%7Bf%2C%5Cperp%7D%3D-v_%7Bi%2C%5Cperp%20%7D%5C%5C%20v_%7Bf%2C%5Cparallel%20%7D%20%3Dv_%7Bi%2C%5Cparallel%20%7D)
 
 Then I calculated the natural logarithms of the separation of the positions of the two billiard for different alpha.
@@ -39,7 +40,9 @@ Then I calculated the natural logarithms of the separation of the positions of t
 ![12](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/6.png)
 .
 ![13](http://latex.codecogs.com/gif.latex?%5Calpha%20%3D%200.01%20%5Cquad%20%5Clambda%20%3D%200.051)
-.
+
+---
+
 ![14](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/7.png)
 ![15](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/8.png)
 ![16](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/9.png)
@@ -48,7 +51,9 @@ Then I calculated the natural logarithms of the separation of the positions of t
 ![19](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/12.png)
 .
 ![20](http://latex.codecogs.com/gif.latex?%5Calpha%20%3D%200.001%20%5Cquad%20%5Clambda%20%3D%200.000479)
-.
+
+---
+
 ![21](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/13.png)
 ![22](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/14.png)
 ![23](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/15.png)
@@ -63,6 +68,7 @@ We can see from the plots that:
 + For different alpha, the spaces between the two dips are different.Lower alpha, minor spaces.
 + For different initial distance, the curves are also different. And so the Lyapunov exponent are also different.
 
+Source Code Here:https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/stadium_biilliard.py
 ---
 ##Acknowledgement
 + Thanks for the author's systematic guidence in the book.
