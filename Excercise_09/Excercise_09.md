@@ -17,6 +17,8 @@ A billiard is a dynamical system in which a particle alternates between motion i
 The motion of the particle in the billiard is a straight line, with constant energy, between reflections with the boundary (a geodesic if the Riemannian metric of the billiard table is not flat). All reflections are specular: the angle of incidence just before the collision is equal to the angle of reflection just after the collision. The sequence of reflections is described by the billiard map that completely characterizes the motion of the particle.
 
 Billiards capture all the complexity of Hamiltonian systems, from integrability to chaotic motion, without the difficulties of integrating the equations of motion to determine its Poincaré map. Birkhoff showed that a billiard system with an elliptic table is integrable.
+
+.
 ![1](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/Excercise_08_additional_pics/1.png)
 ![2](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/Excercise_08_additional_pics/2.png)
 ![3](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/Excercise_08_additional_pics/3.png)
@@ -35,20 +37,25 @@ Then I calculated the natural logarithms of the separation of the positions of t
 ![10](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/4.png)
 ![11](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/5.png)
 ![12](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/6.png)
+.
 ![13](http://latex.codecogs.com/gif.latex?%5Calpha%20%3D%200.01%20%5Cquad%20%5Clambda%20%3D%200.051)
+.
 ![14](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/7.png)
 ![15](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/8.png)
 ![16](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/9.png)
 ![17](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/10.png)
 ![18](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/11.png)
 ![19](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/12.png)
+.
 ![20](http://latex.codecogs.com/gif.latex?%5Calpha%20%3D%200.001%20%5Cquad%20%5Clambda%20%3D%200.000479)
+.
 ![21](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/13.png)
 ![22](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/14.png)
 ![23](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/15.png)
 ![24](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/16.png)
 ![25](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/17.png)
 ![26](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_09/18.png)
+.
 ![27](http://latex.codecogs.com/gif.latex?%5Calpha%20%3D%200.05%20%5Cquad%20%5Clambda%20%3D%200.0600)
 
 We can see from the plots that:
