@@ -45,6 +45,8 @@ For central force of the form:
 
 ---
 We can study their traits of motion using the Euler-Cromer method.
+
+---
 ![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_10/2_01.png)
 ![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_10/2_5.png)
 ![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_10/2_997.png)
@@ -102,6 +104,8 @@ plt.ylabel('y(AU)')
  
  ---
  The motion of the planet is like two dimensional oscilator:
+ 
+ ---
 ![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_10/prop_6.png)
 ![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_10/prop_20.png)
 ![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_10/prop_100.png)
@@ -161,6 +165,8 @@ plt.ylabel('y(AU)')
 
 ---
 + Then measure the velocity of the procession of the perihelion of Mercury:
+
+---
 ![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_10/procession_1.png)
 ![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_10/procession_2.png)
 ![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_10/procession_3.png)
