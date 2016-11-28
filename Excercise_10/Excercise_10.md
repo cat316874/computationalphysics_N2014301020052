@@ -161,6 +161,8 @@ plt.ylabel('y(AU)')
 ---
 ##Procesion
 + We can calculate the orbit of the procession for a certain alpha:
+
+---
 ![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_10/Mercury_orbit.png)
 
 ---
