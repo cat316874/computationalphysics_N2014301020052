@@ -145,6 +145,7 @@ First published in 1989, Hyperion has the structure of a frame story, similar to
 ---
 ##And maybe think of this...
 ![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_11/hyperion_computer.jpg)
+
 The machine was advanced for 1982, featuring 256 kB RAM, dual 360 kB 5.25" floppy disk drives, a graphics card compatible with both CGA and HGC, a video-out jack, a built-in 7-inch amber CRT, 300 bit/s modem, and even an acoustic coupler. It included a version of MS-DOS called H-DOS and bundled word processor, database, and modem software. While the Hyperion weighed just eighteen pounds (8.2 kg), or about 2/3 the weight of the Compaq, it was not as reliable or as IBM compatible and was discontinued within two years.
 ---
 ##Or this?...
