@@ -124,8 +124,8 @@ Here are the results:
 
 ---
 ![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_11/poincare-03.png)
-![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_11/poincare-0355.png)
-![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_11/poincare-0357.png)
+![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_11/poincare-035.png)
+![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_11/poincare-037.png)
 ![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_11/poincare-099.png)
 
 ---
