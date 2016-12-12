@@ -37,6 +37,12 @@ Numerical partial differential equations is the branch of numerical analysis tha
 ![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_12/Navier_Stokes_Laminar.svg.png)
 
 ---
+Method for numerical partial differential equation:
+
+---
+![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_12/method.png)
+
+---
 #Main Text
 + First, we encounter the Laplace's equation here:
 ![](http://www.codecogs.com/eqnedit.php?latex=\frac{\partial&space;^&space;2V}{\partial&space;x&space;^&space;2}&space;+&space;\frac{\partial&space;^&space;2V}{\partial&space;y&space;^&space;2}&space;+&space;\frac{\partial&space;^&space;2V}{\partial&space;z&space;^&space;2}&space;=&space;0.)
