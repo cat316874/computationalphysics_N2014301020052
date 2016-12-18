@@ -1,4 +1,4 @@
-﻿# Excercise_14
+﻿# Excercise_13
 
 标签（空格分隔）： 计算物理
 
@@ -19,17 +19,17 @@ Waves are described by a wave equation which sets out how the disturbance procee
 + A wave can be transverse, where a disturbance creates oscillations that are perpendicular to the propagation of energy transfer, or longitudinal: the oscillations are parallel to the direction of energy propagation. While mechanical waves can be both transverse and longitudinal, all electromagnetic waves are transverse in free space.
 
 ---
-![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_12/1.jpg)
+![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_13/1.jpg)
 
 ---
 Suppose the total length of the string is 1 unit.
 For Gaussian Wavepackte, the displacement of the string can be written as
-![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_12/2.gif)
+![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_13/2.gif)
 
 ---
-+ where the parameters ![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_12/3.gif) influence the width and center of the wavepacket respectively.
++ where the parameters ![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_13/3.gif) influence the width and center of the wavepacket respectively.
 + A more realistic initial wavepacket is composed of two straight lines, that is:
-![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_12/4.gif)
+![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_13/4.gif)
 
 ---
 #Main Text
@@ -47,16 +47,16 @@ The boundary condition is ![]( http://latex.codecogs.com/gif.latex?y%280%2Cn%29%
 ---
 Suppose the initial wavepacket is ![](http://latex.codecogs.com/gif.latex?y_o%28x%29%3Dexp%5B-1000%5Ctimes%28x-x_%7Bexcite%7D%29%5E2%5D). And the total length of the string is 1 unit.  
 When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.5) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.05)  
-![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_12/5.png)  
+![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_13/5.png)  
 
 When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.5) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.1)  
-![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_12/6.png)  
+![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_13/6.png)  
 
 When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.5) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.05%2C0.1%2C0.2%2C0.3), their corresponding power spectrum is  
-![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_12/7.png)  
+![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_13/7.png)  
 
 When ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.45) and ![](http://latex.codecogs.com/gif.latex?x_%7Bobserve%7D%3D0.05%2C0.1%2C0.2%2C0.3), their corresponding power spectrum is  
-![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_12/8.png)  
+![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_13/8.png)  
 
 because ![](http://latex.codecogs.com/gif.latex?%5Clambda%20f%3Dc%2C%5Clambda%20%3D2L/m%2Cm%5Cin%20N), we have the possible frequencies as ![](http://latex.codecogs.com/gif.latex?f%3Dmc/%282L%29%3D150mHz). This explains why the peaks in the spectral analysis in the above figures occur at regularly spaced frequencies. Each of the peaks correspond to one value of interger m. But some frequancies are missing and this can be traced to the operation of Fourier Transformation.  
 Besides, the symmetry of the initial wavepacket can cause certain frequencies to be supressed. The power spectrum of ![](http://latex.codecogs.com/gif.latex?x_%7Bexcite%7D%3D0.45) can illustrate this clearly.  
@@ -143,11 +143,11 @@ plt.show()
 
 ---
 Consider the power spectrum when the initial wave form is triangle:
-![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_12/9.png) 
-![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_12/10.png)
+![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_13/9.png) 
+![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_13/10.png)
 We can see that the peak of the wave are decreasing as the frequency is increasing.
-![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_12/11.png) 
-![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_12/12.png) 
+![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_13/11.png) 
+![](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_13/12.png) 
 This time the symmetry of the initial wave forms is not good as the first situation, so there are more frequency peak.
 
 Code here:
