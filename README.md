@@ -34,7 +34,7 @@ Personal Objective
 - [x] [Exercise_10](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_10/Excercise_10.md)
 - [x] [Exercise_11](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_11/Excercise_11.md)
 - [x] [Exercise_12](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_12/Excercise_12.md)
-- [ ] [Exercise_13](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Exercise_13)
+- [x] [Exercise_13](https://github.com/Rob1nTian/computationalphysics_N2014301020052/blob/master/Excercise_13/Excercise_13.md)
 
 
 
